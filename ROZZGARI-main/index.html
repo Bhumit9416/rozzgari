@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,6 +5,7 @@
     <meta charset="utf-8">
     <title>Rozgari | Empowering Everyone with Support and Opportunities</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
     <meta content="Rozgari helps everyone in need by providing employment and improving their lives." name="description">
 
     <!-- Favicon -->
@@ -35,10 +35,13 @@
     <div class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status" aria-label="Loading..."></div>
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
         </div>
         <!-- Spinner End -->
-
+<!-- 
+          <div class="ashoka"><img src="./img/ashoka.jpeg" alt="ashoka chakra" ></div> -->
         <!-- Navbar Start -->
         <div class="container-fluid nav-bar bg-transparent">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
@@ -54,34 +57,39 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <!-- <a href="about.html" class="nav-item nav-link">About</a> -->
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Jobs</a>
-                            <div class="dropdown-menu rounded-0 m-0">
+                            <div class="dropdown-menu rounded-0 m-0 ">
                                 <a href="search-job.html" class="dropdown-item searchJob active">Search Job</a>
                                 <a href="upload-job.html" class="dropdown-item uploadJob active">Upload Job</a>
+                               <!-- <a  href="property-agent.html" class="dropdown-item">Property Agent</a> -->
                             </div>
                         </div>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
-                            <div class="dropdown-menu rounded-0 m-0">
-                                <a href="search-services.html" class="dropdown-item searchService active">Search Services</a>
+                            <div class="dropdown-menu rounded-0 m-0 ">
+                                <a href="search-services.html" class="dropdown-item searchService  active">Search Services</a>
                                 <a href="upload-services.html" class="dropdown-item uploadService active">Upload Services</a>
+                                <!-- <a href="404.html" class="dropdown-item">404 Error</a> -->
                             </div>
                         </div>
                         <a href="contact.html" class="nav-item nav-link">Contact Us</a>
                     </div>
                     <div class="govt"><img src="./img/govt.jpeg" alt=""></div>
+                    <!-- <a href="" class="btn btn-primary px-3 d-none d-lg-flex">Add Job</a> -->
                 </div>
             </nav>
         </div>
         <!-- Navbar End -->
+
 
         <!-- Header Start -->
         <div class="container-fluid header bg-white p-0">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <div class="col-md-6 p-5 mt-lg-5">
                     <h1 class="display-5 animated fadeIn mb-4">Your Job, Our Mission:<span class="text-primary">Rozgari</span> at Your Service</h1>
-                    <p class="animated fadeIn mb-4 pb-2">Whether you're seeking a new position or looking to advance in your field, Rozgari is here to help you find the right job and build a successful career.</p>
+                    <p class="animated fadeIn mb-4 pb-2"> Whether you're seeking a new position or looking to advance in your field, Rozgari is here to help you find the right job and build a successful career.</p>
                     <a href="" class="btn btn-primary py-3 px-5 me-3 animated fadeIn">Get Started</a>
                 </div>
                 <div class="col-md-6 animated fadeIn">
@@ -97,6 +105,7 @@
             </div>
         </div>
         <!-- Header End -->
+
 
         <!-- Search Start -->
         <div class="container-fluid bg-primary mb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 35px;">
@@ -116,10 +125,10 @@
                                     <option value="4">Home Maid</option>
                                     <option value="5">Labour</option>
                                     <option value="6">Plumber</option>
-                                    <option value="7">Carpenter</option>
-                                    <option value="8">Cashier</option>
-                                    <option value="9">HouseKeeper</option>
-                                    <option value="10">Construction Worker</option>
+                                    <option value="6">Carpenter</option>
+                                    <option value="6">Cashier</option>
+                                    <option value="6">HouseKeeper</option>
+                                    <option value="6">Construction Worker</option>
                                 </select>
                             </div>
                             <div class="col-md-4">
@@ -141,6 +150,7 @@
         </div>
         <!-- Search End -->
 
+
         <!-- Category Start -->
         <div class="container-xxl py-5">
             <div class="container">
@@ -156,6 +166,7 @@
                                     <img class="img-fluid" src="img/electrician.png" alt="Icon">
                                 </div>
                                 <h6>Electrician</h6>
+<!--                                 <span>123 Properties</span> -->
                             </div>
                         </a>
                     </div>
@@ -166,14 +177,102 @@
                                     <img class="img-fluid" src="img/gardener.png" alt="Icon">
                                 </div>
                                 <h6>Gardener</h6>
+                                
                             </div>
                         </a>
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                         <a class="cat-item d-block bg-light text-center rounded p-3" href="">
                             <div class="rounded p-4">
-                                <div class="icon mb
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/guard.png" alt="Icon">
+                                </div>
+                                <h6>Security Guard</h6>
+                               
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/maid.png" alt="Icon">
+                                </div>
+                                <h6>Home maid</h6>
+                                
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/plumber.png" alt="Icon">
+                                </div>
+                                <h6>Plumber</h6>
+                                
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/carpenter.png" alt="Icon">
+                                </div>
+                                <h6>Carpenter</h6>
+                                
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/cashier.png" alt="Icon">
+                                </div>
+                                <h6>Cashier</h6>
+                               
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                            <div class="rounded p-4">
+                                <div class="icon mb-3">
+                                    <img class="img-fluid" src="img/workers.png" alt="Icon">
+                                </div>
+                                <h6>Construction workers</h6>
+                          
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Category End -->
 
+
+        <!-- About Start -->
+        <!-- <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="about-img position-relative overflow-hidden p-5 pe-0">
+                            <img class="img-fluid w-100" src="img/about.jpg">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h1 class="mb-4">#1 Place To Find The Perfect Property</h1>
+                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <p><i class="fa fa-check text-primary me-3"></i>Tempor erat elitr rebum at clita</p>
+                        <p><i class="fa fa-check text-primary me-3"></i>Aliqu diam amet diam et eos</p>
+                        <p><i class="fa fa-check text-primary me-3"></i>Clita duo justo magna dolore erat amet</p>
+                        <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
         <!-- About End -->
 
 
@@ -596,115 +695,31 @@
         <!-- Call to Action End -->
 
 
-        <!-- Team Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">Our Team</h1>
-                    <!-- <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p> -->
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="team-item rounded overflow-hidden">
-                            <div class="position-relative">
-                                <img class="img-fluid" src="img/team-1.png" alt="">
-                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <!-- <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a> -->
-                                    <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/bhumit-mittal-6598b01b7/"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Bhumit Mittal</h5>
-                                <!-- <small>Designation</small> -->
-                            </div>
+      <!-- Team Member Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+            <h1 class="mb-3">FOUNDER</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="team-item rounded overflow-hidden">
+                    <div class="position-relative">
+                        <img class="img-fluid" src="img/bhumit.jpg" alt="Bhumit">
+                        <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                            <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/bhumit-mittal-6598b01b7/"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-item rounded overflow-hidden">
-                            <div class="position-relative">
-                                <img class="img-fluid" src="img/team-2.jpeg" alt="">
-                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <!-- <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a> -->
-                                    <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/sahil-singh-rathore-a5950b24b/"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Sahil Singh</h5>
-                                <!-- <small>Designation</small> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item rounded overflow-hidden">
-                            <div class="position-relative">
-                                <img class="img-fluid" src="img/team-3.jpeg" alt="">
-                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <!-- <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a> -->
-                                    <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/shubham-sharma-9972a7255/"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Shubham Sharma</h5>
-                                <!-- <small>Designation</small> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item rounded overflow-hidden">
-                            <div class="position-relative">
-                                <img class="img-fluid" src="img/team-4.jpeg" alt="">
-                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <!-- <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a> -->
-                                    <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/suhanisharmaaa/"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Suhani Sharma</h5>
-                                <!-- <small>Designation</small> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s" style="margin-left: 325px;">
-                        <div class="team-item rounded overflow-hidden">
-                            <div class="position-relative">
-                                <img class="img-fluid" src="img/team-5.jpg" alt="">
-                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <!-- <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a> -->
-                                    <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/stuti-agrawal-68464421b/"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Stuti Agrawal</h5>
-                                <!-- <small>Designation</small> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item rounded overflow-hidden">
-                            <div class="position-relative">
-                                <img class="img-fluid" src="img/team-6.jpeg" alt="">
-                                <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <!-- <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a> -->
-                                    <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/tushartak/"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Tushar Tak</h5>
-                                <!-- <small>Designation</small> -->
-                            </div>
-                        </div>
+                    <div class="text-center p-4 mt-3">
+                        <h5 class="fw-bold mb-0">Bhumit Mittal</h5>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Team End -->
-         
+    </div>
+</div>
+<!-- Team Member End -->
+
 
 
         <!-- Testimonial Start -->
@@ -762,9 +777,9 @@
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Get In Touch</h5>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jaipur, Rajasthan, INDIA</p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Delhi, INDIA</p>
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 1234567890</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>TeamSyntax@SIH.com</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>bhumit9416@gmail.com</p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -817,7 +832,7 @@
                 <div class="copyright">
                     <div class="row">
                         <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="index.html">ROZGARI</a>, All Right Reserved. Designed By <a class="border-bottom" >Team_Syntax</a>
+                            &copy; <a class="border-bottom" href="index.html">ROZGARI</a>, All Right Reserved. Designed By <a class="border-bottom" >Bhumit</a>
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
